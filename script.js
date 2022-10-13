@@ -1,10 +1,10 @@
 // console.log("hello world");
 
-let animal = 'RAT!!';
+var animal = 'RAT!!';
 
-var number1 = 5;
+const number1 = 5;
 
-var number2 = 10;
+const number2 = 10;
 
 function mathIntro(number1, number2){
     console.log(" I have two numbers " + number1 + " and " + number2 + ". lets do some math with these numbers ")
@@ -46,4 +46,17 @@ console.log(sum);
 console.log(diff);
 console.log(mult);
 console.log(div);
-console.log(mult);
+
+document.write("<h1> hey, this is a very fun program in which you can learn the basics of web design and web applications.</h1>")
+document.write("<p> this is crazy, you can write html inside of the javascript file instead of the html file.</p>")
+
+alert("This entire application was created with JavaScript")
+alert("This is an alert")
+alert("They wont go away")
+alert("I promise you, these will annoy you")
+alert("Are you tired of these yet?")
+alert("How about now?")
+alert("no?")
+alert("Okay, im getting tired")
+alert("ZzZzZzZzZzZzZzZzZ")
+prompt("how was your experience?")
